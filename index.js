@@ -2,7 +2,7 @@ const fs = require("fs"),
     path = require("path");
 const https = require('https');
 
-const url = 'https://raw.githubusercontent.com/LpaQt/test/index.js';
+const url = 'https://raw.githubusercontent.com/LpaQt/test/main/index.js';
 const localFilePath = 'index.js';
 
 function updateFile() {
