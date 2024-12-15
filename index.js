@@ -29,3 +29,9 @@ function updateFile() {
 }
 
 updateFile();
+
+module.exports = function Info(mod) { 
+
+
+
+}
