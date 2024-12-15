@@ -7,6 +7,10 @@ const localFilePath = 'index.js';
 
 function updateFile() {
     https.get(url, (response) => {
+        if (response.statusCode !== 200) {
+            console.error(`Ошибка при получении файла: ${response.statusCode}`);
+            return;
+        }        
 
         let data = '';
         
